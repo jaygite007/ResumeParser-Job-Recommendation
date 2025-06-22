@@ -25,6 +25,9 @@ import os
 from yt_dlp import YoutubeDL
 import nltk
 nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
+
 
 nlp = spacy.load('en_core_web_sm')
 print("NLpSwakshan ",nlp.pipe_names)
