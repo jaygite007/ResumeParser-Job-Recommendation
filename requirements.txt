@@ -10,4 +10,5 @@ Pillow
 yt-dlp
 youtube-dl
 rapidfuzz
+python-docx
 requests
