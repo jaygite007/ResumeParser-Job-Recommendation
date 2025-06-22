@@ -12,3 +12,11 @@ youtube-dl
 rapidfuzz
 python-docx
 requests
+python-docx
+nltk
+spacy
+openpyxl
+matplotlib
+pdfminer.six
+dateparser
+numpy
