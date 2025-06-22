@@ -23,6 +23,8 @@ import spacy
 import yt_dlp
 import os
 from yt_dlp import YoutubeDL
+import nltk
+nltk.download('stopwords')
 
 nlp = spacy.load('en_core_web_sm')
 print("NLpSwakshan ",nlp.pipe_names)
